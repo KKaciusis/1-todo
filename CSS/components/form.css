@@ -1,15 +1,36 @@
 .form {
 display: flex;
+width: 400px;
+max-width: 90%;
+flex-direction: column;
+gap: 20px;
+background-color: lightgrey;
+padding: 20px;
+box-shadow: 0 4px 10px 0 #0004;
 }
 .form > .form-row{
-
+display: flex;
+gap: 20px;
 }
 .form > .form-row > textarea {
-
+width: 100%;
 }
 .form > .form-row > input {
-
+width: 100%;
+}
+.form > .form-row > input[type='checkbox']{
+    width: auto;
+    transform: scale(1.5);
+    transform-origin: left;
 }
 .form > .form-row > button {
-
+flex-grow: 1;
+line-height: 25px;
+font-size: 15px;
+}
+.form > .form-row > button.save:hover {
+background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(108,9,121,1) 35%, rgba(255,0,181,1) 100%);
+color: white;
+border: none;
 }
