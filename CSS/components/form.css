@@ -14,14 +14,19 @@ gap: 20px;
 }
 .form > .form-row > textarea {
 width: 100%;
+resize: vertical;
+min-height: 60px;
+line-height: 20px;
+font-size: 16px;
+padding: 10px;
 }
 .form > .form-row > input {
 width: 100%;
 }
 .form > .form-row > input[type='checkbox']{
-    width: auto;
-    transform: scale(1.5);
-    transform-origin: left;
+width: auto;
+transform: scale(1.5);
+transform-origin: left;
 }
 .form > .form-row > button {
 flex-grow: 1;
