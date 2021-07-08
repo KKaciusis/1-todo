@@ -1,0 +1,15 @@
+.form {
+display: flex;
+}
+.form > .form-row{
+
+}
+.form > .form-row > textarea {
+
+}
+.form > .form-row > input {
+
+}
+.form > .form-row > button {
+
+}

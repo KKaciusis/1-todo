@@ -1,5 +1,4 @@
 @import './base/reset.css';
 @import './base/variables.css';
 @import './components/todo.css';
-
-
+@import './components/form.css';
