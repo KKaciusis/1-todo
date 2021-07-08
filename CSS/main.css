@@ -2,3 +2,9 @@
 @import './base/variables.css';
 @import './components/todo.css';
 @import './components/form.css';
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
