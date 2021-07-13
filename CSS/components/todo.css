@@ -20,11 +20,14 @@
     background-color: #0003;
     font-size: 12px;
     text-transform: uppercase;
+    text-align: center;
 }
 
-.card > .badge.compleated {
-  background-color: #3c0;
-  color: #fff;
+.card > .badge.completed {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(108,9,121,1) 35%, rgba(255,0,181,1) 100%);
+    color: white;
+    text-align: center;
 }
 
 .card > .badge.not-compleated {
