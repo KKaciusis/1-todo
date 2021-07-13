@@ -34,7 +34,7 @@ class Todo {
         let status = '<span class="badge not-completed">Not completed</span>';
 
         if (completed) {
-            status = '<span class="badge completed">Comlpeted</span>';
+            status = '<span class="badge completed">Completed</span>';
         }
         const HTML = `<div class="card" style="border-color: ${color};">
                         ${status}
