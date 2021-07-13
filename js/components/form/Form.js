@@ -85,16 +85,22 @@ class Form {
         return true;
     }
     isValidMessage(message){
+        if (typeof message !== 'string' || message === ''){
+            return false;
+        }
         return true;
     }
     isValidColor(color){
         return true;
     }
     isValidDate(date){
+        if (typeof date !== 'string' || date === '' || isNaN((new Date(date)).getTime())){
+            return false;
+        }
         return true;
     }
-    isValidCompleted(completed){
-        return true;
+    isValidCompleted(completed){ 
+        return typeof completed === 'boolean';
     }
 }
 
